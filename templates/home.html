@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental health website</title>
+    <style>
+*
+*::before
+*::after{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    width: auto;
+    margin:auto;
+    background-color: lightpink;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: green;
+    padding: 0px 50px;
+}
+#logo{
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 20px 0 0 0;
+}
+nav ul{
+    padding: 10px 0 0 0;
+    list-style: none;
+}
+nav li{
+    display: inline;
+    padding: 1em;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+nav a:hover{
+    color: black;
+}
+#trgt{
+    color: black;
+    font-weight:bold;
+}
+.join-com p{
+    color: white;
+    background-color: green;
+    padding: 1em;
+    margin-right:1em ;
+    width: fit-content;
+}
+
+.join-com p:hover{
+    background-color: rgb(3, 83, 3);
+}
+
+header{
+    display: flex;
+    font-size: 22px;
+    padding:20px 50px 20px 70px ;
+}
+img{
+    width: 500px;
+    height: 400px;
+}
+header article{
+    padding: 0 10px;
+}
+h1{
+    font-size: 50px;  
+}
+.black{
+    height: fit-content;
+    background-color: black;
+}
+main{
+    width: auto;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding-top: 30px;
+}
+#first-section{
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    font-size: 43px;
+}
+section{
+    display: flex;
+    padding:20px 50px 20px 70px;
+}
+main article{
+    padding: 20px;
+    line-height: 1.5em;
+}
+#fifth-section{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+#fifth-section article{
+    width: 500px;
+    font-size: 25px;
+    padding:0 20px 50px 20px;
+}
+#small-black{
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    line-height: 0;
+    margin-left: 30px;
+    padding: 5px;
+}
+#fifth-section img{
+    width: 250px;
+    height: 200px;
+}
+footer{
+    width: 1150px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding-top: 30px;
+}
+form{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding:20px 50px 20px 70px;
+}
+input{
+    width: 550px;
+    height: 50px;
+    padding: 0 10px;
+}
+footer a{
+    color: white;
+}
+footer ul{
+    list-style: none;
+    line-height: 40px;
+    
+    padding: 20px 90px 20px 0;
+}
+#grey{
+    color: black;
+}
+</style>
+</head>
+<body>
+    <!-- just basic comment for branch testing-->
+    <div id="container">
+        <div id="white-background">
+            <!--beginning of nav-->
+            <nav>
+                <p  id="logo">MIND<span style="color: red;">SPA</span></p>
+                <ul>
+                    <li><a href="#" target="_blank" id="trgt"></a> </li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="myths">Myths</a> </li>
+                    <li><a href="disorders">Disorders</a> </li>
+                    <li><a href="remedies">Remedies</a> </li>
+                    <li><a href="pred">Predict</a> </li>
+
+                </ul>
+                <div class="join-com"> <a href=""></a></div>
+            </nav> 
+            <!--end of nav-->
+            <!--header-->
+            <header>
+                <article>
+                    <h1>Your Mental Health Is Our Priority.</h1>
+                    <p>At Let's Talk health, you matter.</p>
+                    <div class="join-com"> <a href=""> 
+                        <p align="center"><a href=pred ><button class=grey style="height:50px;width:150px">Proceed</button></a></p>
+                         </a></div>
+                </article>
+                <article class="lightpink"> <img src="https://thumbs.dreamstime.com/b/brain-charging-mental-rest-plug-cable-leads-to-plastiline-meanders-pink-background-top-view-162363122.jpg" alt=""></article>
+            </header>
+            <!--header end-->
+        </div>
+       <main>
+            <!--fist section-->
+            <div id="first-section">
+                <h2>Who we are</h2>
+                <p> We are dedicated to reminding you about how important you are, through</p>
+            </div>
+            <!--end of first section-->
+            <!--second section-->
+            <section>
+                <article>
+                    <img src="https://motionarray.imgix.net/preview-795391-rR16AB7uvjpEONO6-large.jpg?w=3840&q=60&fit=max&auto=format" alt="people together">
+                </article>
+                <article>
+                    <h3>MINDSPA</h3>
+                <p> Navigating life becomes easier when you have a community of people sharing in your mental health struggle. IT relieves you of the burden of dealing with a mental health illness alone. </p>
+                <p> You're seen. </p>
+                </article>
+            </section>
+            <!--end of second section-->
+            <!--third section-->
+            <section>
+                <article>
+                    <h3>SELF CHECKUP</h3>
+                    <p> With our stack of questions you will be able to know your mental state at free of cost and it will provide accurate remedies ,tasks and connect to a doctor</p>
+                    <p>You are valued</p>
+                </article>
+                <article>
+                    <img src="https://news.blr.com/app/uploads/sites/4/2018/05/Mental-health.jpg" alt="people laughing">
+                </article>
+            </section>
+            <!--end of third section-->
+            <!--fourth section-->
+            <section>
+                <article>
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.w-zqSM0-zL1mgc8aphP8ogHaHa&pid=Api&P=0" alt="people together in sunrise">
+                </article>
+                <article>
+                    <h3>YOU MATTER</h3>
+                <p>Reminding you of how much you matter is why we exist. Staying true to you and ourselves as people that seem far, but will always be there for you.</p>
+                <p> You are important </p>
+                </article>
+            </section>
+            <!--end of fourth section-->
+            </main>
+            <!--begining of fifth section-->
+            
+            <!--end of fifth-section-->
+            <!--footer-->
+    </div>
+</body>
+</html>
+
